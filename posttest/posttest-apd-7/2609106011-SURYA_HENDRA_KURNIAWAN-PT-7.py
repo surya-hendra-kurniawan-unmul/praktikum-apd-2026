@@ -92,8 +92,6 @@ def input_harga():
     harga = input("Harga Kamar : ").strip()
     if not harga.isdigit():
         raise ValueError("Harga harus berupa angka!")
-    if int(harga) <= 0:
-        raise ValueError("Harga harus lebih dari 0!")
     return int(harga)
 
 def menu_admin():
