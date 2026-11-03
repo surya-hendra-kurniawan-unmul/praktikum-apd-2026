@@ -1,7 +1,5 @@
 import os
-from colorama import just_fix_windows_console, Fore, Style
-
-just_fix_windows_console()
+from colorama import Fore, Style
 
 clear = 'cls' if os.name == 'nt' else 'clear'
 
